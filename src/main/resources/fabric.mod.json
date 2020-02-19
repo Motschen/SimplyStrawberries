@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 1,
+  "id": "simplystrawberrys",
+  "version": "1.0",
+
+  "name": "Simply Strawberrys",
+  "description": "Adds strawberrys to the game! Can be found in village chests.",
+  "authors": [
+    "Motschen - Everything",
+    "TeamMidnightDust - Mascot",
+	"TraurigeErdbeere - Mascot"
+  ],
+  "contact": {
+    "homepage": "https://motschen.github.io/simplystrawberrys",
+    "sources": "https://github.com/Motschen/simplystrawberrys",
+	"discord": "Motschen#2736"
+  },
+
+  "license": "GNU GPLv3",
+  "icon": "assets/simplystrawberrys/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "io.github.motschen.simplystrawberrys.SimplyStrawberrys"
+    ],
+    "client": [
+      "io.github.motschen.simplystrawberrys.StrawberryClient"
+    ]
+  },
+
+  "depends": {
+    "fabricloader": ">=0.7.2",
+    "fabric": "*",
+    "minecraft": ">=1.15"
+  },
+  "suggests": {
+    "flamingo": "*"
+  }
+}

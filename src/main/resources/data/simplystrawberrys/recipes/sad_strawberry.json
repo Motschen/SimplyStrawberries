@@ -1,0 +1,17 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "simplystrawberrys:strawberry",
+            "item_h": "simplystrawberrys:strawberry"
+        },
+        {
+            "item": "minecraft:water_bucket",
+            "item_h": "minecraft:water_bucket"
+        }
+    ],
+    "result": {
+        "item": "simplystrawberrys:sad_strawberry",
+        "count": 1
+    }
+}

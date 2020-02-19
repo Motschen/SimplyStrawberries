@@ -1,0 +1,6 @@
+{
+    "parent": "block/crop",
+    "textures": {
+        "crop": "simplystrawberrys:block/strawberry_stage1"
+    }
+}

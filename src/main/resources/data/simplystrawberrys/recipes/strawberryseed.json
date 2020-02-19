@@ -1,0 +1,13 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "simplystrawberrys:strawberry",
+            "item_h": "simplystrawberrys:strawberry"
+        }
+    ],
+    "result": {
+        "item": "simplystrawberrys:strawberryseed",
+        "count": 3
+    }
+}
