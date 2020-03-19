@@ -19,7 +19,7 @@ public class SadStrawberry extends Item {
     @Override
     public TypedActionResult<ItemStack> use(World world, PlayerEntity PlayerEntity, Hand hand){
         PlayerEntity.playSound(SoundEvents.ENTITY_GHAST_AMBIENT, 1.0F, 1.0F);
-        PlayerEntity.addChatMessage(new LiteralText("Twitter: @motschenyt @FlashVlogger"), true);
+        PlayerEntity.addMessage(new LiteralText("Instagram: @motschenyt @vxle_ntin"), true);
         return new TypedActionResult<ItemStack>(ActionResult.SUCCESS, PlayerEntity.getStackInHand(hand));
     }
 
