@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "id": "simplystrawberrys",
-  "version": "1.0",
+  "version": "1.2.0",
 
   "name": "Simply Strawberries",
   "description": "Adds strawberries to the game! Can be found in village chests.",
@@ -11,12 +11,12 @@
 	"TraurigeErdbeere - Mascot"
   ],
   "contact": {
-    "homepage": "https://motschen.github.io/SimplyStrawberries",
-    "sources": "https://github.com/Motschen/SimplyStrawberries",
+    "homepage": "https://motschen.github.io/simplystrawberrys",
+    "sources": "https://github.com/Motschen/simplystrawberrys",
 	"discord": "Motschen#2736"
   },
 
-  "license": "GNU GPLv3",
+  "license": "MIT",
   "icon": "assets/simplystrawberrys/icon.png",
 
   "environment": "*",
@@ -31,8 +31,7 @@
 
   "depends": {
     "fabricloader": ">=0.7.2",
-    "fabric": "*",
-    "minecraft": ">=1.15"
+    "fabric": "*"
   },
   "suggests": {
     "flamingo": "*"
